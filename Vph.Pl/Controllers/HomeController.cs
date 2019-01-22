@@ -29,7 +29,7 @@ namespace Vph.Pl.Controllers
 
         Authenticator CreateAuthenticator()
         {
-            var redirectUrl = $"{Request.Scheme}://{Request.Host}/Home/Callback";
+            var redirectUrl = "http://www.stormtide.net/vph/Home/Callback";
             var config = new RestSharp.Portable.OAuth2.Configuration.RuntimeClientConfiguration
             {
                 IsEnabled = false,
