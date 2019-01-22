@@ -9,14 +9,28 @@
     <div class="col-md-8">
         <h2>Authenticated to Strava: @Model.IsAuthenticated</h2>
         <p>Access Token: @Model.AccessToken</p>
-        <a class="btn btn-primary" href="~/Home/Authenticate">Authenticate with Strava</a>
-        <a class="btn btn-default" href="~/Home/LogOut">Log Out from Strava</a>
+       
         @if (@Model.IsAuthenticated)
         {
             <form action="~/Home/CreateActivity" method="post">
-                <input type="date" name="date" id="date"/>
-                <input type="submit" class="btn btn-default" value="Create Activity"/>
+                <input class="form-control" type="date" name="startDate" id="startDate" />
+                <input class="form-control" type="date" name="endDate" id="endDate" />
+                <input type="submit" class="btn btn-primary" value="Create Activity" />
             </form>
+        }
+        
+       
+        @if (@Model.IsAuthenticated)
+        {
+            <div>
+                <a class="btn btn-default" href="~/Home/LogOut">Log Out from Strava</a>
+            </div>
+        }
+        else
+        {
+            <div>
+                <a class="btn btn-primary" href="~/Home/Authenticate">Authenticate with Strava</a>
+            </div>
         }
     </div>
 </div>

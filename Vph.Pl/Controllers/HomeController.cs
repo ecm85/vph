@@ -69,21 +69,51 @@ namespace Vph.Pl.Controllers
         public static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
 
         [HttpPost]
-        public async Task<ActionResult> CreateActivity(DateTime date)
+        public async Task<ActionResult> CreateActivity(DateTime startDate, DateTime endDate)
+        {
+
+            if (endDate.Date < startDate.Date || startDate == DateTime.MinValue || endDate == DateTime.MinValue)
+                throw new InvalidOperationException("You're an idiot.");
+            if (endDate.Date.Subtract(startDate.Date).Days > 30)
+                throw new InvalidOperationException("Just do a month at a time.");
+
+            var currentDate = startDate;
+            var model = new CreateActivityResultModel();
+            while (currentDate.Date <= endDate.Date)
+            {
+                try
+                {
+                    var authenticator = CreateAuthenticator();
+                    var client = new StravaSharp.Client(authenticator);
+                    var originalFilePath = Path.Combine(GetCurrentPath, "Biking-timestamped.gpx");
+                    var dateStamp = currentDate.ToString("yyyy-MM-dd");
+                    var originalFileText = System.IO.File.ReadAllText(originalFilePath).Replace("YYYY-MM-DD", dateStamp);
+
+                    using (var stream = new MemoryStream(Encoding.ASCII.GetBytes(originalFileText)))
+                    {
+                        await client.Activities.Upload(ActivityType.Ride, DataType.Gpx, stream, $"BikeRide{dateStamp}.gpx",
+                            $"Bike Ride {dateStamp}");
+                    }
+
+                    model.Successes++;
+                }
+                catch (Exception)
+                {
+                    model.Failures++;
+                }
+                currentDate = currentDate.AddDays(1);
+            }
+
+            return View(model);
+        }
+
+        public async Task<ActionResult> Activities()
         {
             var authenticator = CreateAuthenticator();
             var client = new StravaSharp.Client(authenticator);
-            var originalFilePath = Path.Combine(GetCurrentPath, "Biking-timestamped.gpx");
-            var dateStamp = date.ToString("yyyy-MM-dd");
-            var originalFileText = System.IO.File.ReadAllText(originalFilePath).Replace("YYYY-MM-DD", dateStamp);
-            
-            using (var stream = new MemoryStream(Encoding.ASCII.GetBytes(originalFileText)))
-            {
-                await client.Activities.Upload(ActivityType.Ride, DataType.Gpx, stream, $"BikeRide{dateStamp}.gpx", $"Bike Ride {dateStamp}");
-            }
             var activities = await client.Activities.GetAthleteActivities();
             var models = activities.Select(activity => new ActivityViewModel(activity)).ToList();
-            
+
             return View(models);
         }
     }
