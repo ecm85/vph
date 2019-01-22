@@ -10,5 +10,9 @@
         <h2>Results</h2>
         <p>Successes: @Model.Successes</p>
         <p>Failures: @Model.Failures</p>
+        @foreach (var error in Model.Exceptions)
+        {
+            @error.Message
+        }
     </div>
 </div>

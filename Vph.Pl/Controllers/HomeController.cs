@@ -97,9 +97,10 @@ namespace Vph.Pl.Controllers
 
                     model.Successes++;
                 }
-                catch (Exception)
+                catch (Exception exception)
                 {
                     model.Failures++;
+                    model.Exceptions.Add(exception);
                 }
                 currentDate = currentDate.AddDays(1);
             }
