@@ -1,0 +1,26 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Authenticated to Strava: @Model.IsAuthenticated</h2>
+        <p>Access Token: @Model.AccessToken</p>
+        <a class="btn btn-primary" href="~/Home/Authenticate">Authenticate with Strava</a>
+        <a class="btn btn-default" href="~/Home/LogOut">Log Out from Strava</a>
+        <a class="btn btn-default" href="~/Home/CreateActivity">Create Activity For Today</a>
+    </div>
+    @{
+        foreach (var activity in Model.Activities)
+        {
+            <div class="row">
+                <p><b>@activity.Name</b></p>
+                <p>@activity.Distance <i>@activity.Start</i></p>
+            </div>
+        }
+    }
+
+</div>

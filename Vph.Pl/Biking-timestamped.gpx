@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GOTOES STRAVA TOOLS"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+  xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata>
+    <link href="http://gotoes.org/strava/Add_Timestamps_To_GPX.php">
+      <text>GOTOES STRAVA TOOLS Used Date supplied by user</text>
+    </link>
+    <time>YYYY-MM-DDT16:43:42Z</time>
+  </metadata>
+  <trk>
+  <name>Biking</name>
+  <trkseg>
+   <trkpt lon="-88.04846" lat="42.934900000000006">
+    <ele>233.47</ele>
+    <time>YYYY-MM-DDT16:43:42Z</time>
+   </trkpt>
+   <trkpt lon="-88.04777999952765" lat="42.93487500200515">
+    <ele>233.28</ele>
+    <time>YYYY-MM-DDT16:44:04Z</time>
+   </trkpt>
+   <trkpt lon="-88.0471" lat="42.934850000000004">
+    <ele>232.53</ele>
+    <time>YYYY-MM-DDT16:44:27Z</time>
+   </trkpt>
+   <trkpt lon="-88.04642000000001" lat="42.934900000000006">
+    <ele>232.28</ele>
+    <time>YYYY-MM-DDT16:44:49Z</time>
+   </trkpt>
+   <trkpt lon="-88.04581" lat="42.93477">
+    <ele>232.78</ele>
+    <time>YYYY-MM-DDT16:45:10Z</time>
+   </trkpt>
+   <trkpt lon="-88.04528" lat="42.93457">
+    <ele>234.29000000000002</ele>
+    <time>YYYY-MM-DDT16:45:30Z</time>
+   </trkpt>
+   <trkpt lon="-88.04487" lat="42.934340000000006">
+    <ele>236.35000000000002</ele>
+    <time>YYYY-MM-DDT16:45:47Z</time>
+   </trkpt>
+   <trkpt lon="-88.0443" lat="42.93412">
+    <ele>239.32000000000002</ele>
+    <time>YYYY-MM-DDT16:46:08Z</time>
+   </trkpt>
+   <trkpt lon="-88.04361" lat="42.93404">
+    <ele>240.62000000000003</ele>
+    <time>YYYY-MM-DDT16:46:32Z</time>
+   </trkpt>
+   <trkpt lon="-88.04281" lat="42.9341">
+    <ele>238.41</ele>
+    <time>YYYY-MM-DDT16:46:58Z</time>
+   </trkpt>
+   <trkpt lon="-88.04213" lat="42.934050000000006">
+    <ele>235.36</ele>
+    <time>YYYY-MM-DDT16:47:21Z</time>
+   </trkpt>
+   <trkpt lon="-88.04165" lat="42.933890000000005">
+    <ele>234.11</ele>
+    <time>YYYY-MM-DDT16:47:38Z</time>
+   </trkpt>
+   <trkpt lon="-88.04090999509225" lat="42.93348500236052">
+    <ele>233.08</ele>
+    <time>YYYY-MM-DDT16:48:09Z</time>
+   </trkpt>
+   <trkpt lon="-88.04017" lat="42.933080000000004">
+    <ele>235.06</ele>
+    <time>YYYY-MM-DDT16:48:39Z</time>
+   </trkpt>
+   <trkpt lon="-88.04006000000001" lat="42.933110000000006">
+    <ele>234.84</ele>
+    <time>YYYY-MM-DDT16:48:43Z</time>
+   </trkpt>
+   <trkpt lon="-88.04017" lat="42.933080000000004">
+    <ele>235.06</ele>
+    <time>YYYY-MM-DDT16:48:47Z</time>
+   </trkpt>
+   <trkpt lon="-88.03927" lat="42.93334">
+    <ele>232.22</ele>
+    <time>YYYY-MM-DDT16:49:19Z</time>
+   </trkpt>
+   <trkpt lon="-88.03896" lat="42.933370000000004">
+    <ele>230.12</ele>
+    <time>YYYY-MM-DDT16:49:30Z</time>
+   </trkpt>
+   <trkpt lon="-88.03851" lat="42.933350000000004">
+    <ele>228.15</ele>
+    <time>YYYY-MM-DDT16:49:45Z</time>
+   </trkpt>
+   <trkpt lon="-88.03801000000001" lat="42.93327">
+    <ele>225.74</ele>
+    <time>YYYY-MM-DDT16:50:01Z</time>
+   </trkpt>
+   <trkpt lon="-88.03800000000001" lat="42.93327">
+    <ele>225.71</ele>
+    <time>YYYY-MM-DDT16:50:02Z</time>
+   </trkpt>
+   <trkpt lon="-88.03758" lat="42.933110000000006">
+    <ele>224.99</ele>
+    <time>YYYY-MM-DDT16:50:18Z</time>
+   </trkpt>
+   <trkpt lon="-88.03723000000001" lat="42.932900000000004">
+    <ele>225.03</ele>
+    <time>YYYY-MM-DDT16:50:32Z</time>
+   </trkpt>
+   <trkpt lon="-88.03686" lat="42.93272">
+    <ele>224.93</ele>
+    <time>YYYY-MM-DDT16:50:47Z</time>
+   </trkpt>
+   <trkpt lon="-88.03636" lat="42.932550000000006">
+    <ele>224.36</ele>
+    <time>YYYY-MM-DDT16:51:05Z</time>
+   </trkpt>
+   <trkpt lon="-88.03588" lat="42.932460000000006">
+    <ele>223.93</ele>
+    <time>YYYY-MM-DDT16:51:22Z</time>
+   </trkpt>
+   <trkpt lon="-88.03481000000001" lat="42.93238">
+    <ele>222.53</ele>
+    <time>YYYY-MM-DDT16:51:57Z</time>
+   </trkpt>
+   <trkpt lon="-88.03412" lat="42.932430000000004">
+    <ele>221.26000000000002</ele>
+    <time>YYYY-MM-DDT16:52:20Z</time>
+   </trkpt>
+   <trkpt lon="-88.03307000000001" lat="42.932570000000005">
+    <ele>223.95000000000002</ele>
+    <time>YYYY-MM-DDT16:52:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.0327" lat="42.9326">
+    <ele>224.28</ele>
+    <time>YYYY-MM-DDT16:53:08Z</time>
+   </trkpt>
+   <trkpt lon="-88.03222000000001" lat="42.93254">
+    <ele>223.92000000000002</ele>
+    <time>YYYY-MM-DDT16:53:24Z</time>
+   </trkpt>
+   <trkpt lon="-88.03202" lat="42.932500000000005">
+    <ele>223.37</ele>
+    <time>YYYY-MM-DDT16:53:31Z</time>
+   </trkpt>
+   <trkpt lon="-88.03108" lat="42.932100000000005">
+    <ele>220.36</ele>
+    <time>YYYY-MM-DDT16:54:07Z</time>
+   </trkpt>
+   <trkpt lon="-88.0305" lat="42.931740000000005">
+    <ele>219.16000000000003</ele>
+    <time>YYYY-MM-DDT16:54:32Z</time>
+   </trkpt>
+   <trkpt lon="-88.03003000000001" lat="42.93133">
+    <ele>218.73</ele>
+    <time>YYYY-MM-DDT16:54:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.02978" lat="42.93086">
+    <ele>218.42000000000002</ele>
+    <time>YYYY-MM-DDT16:55:19Z</time>
+   </trkpt>
+   <trkpt lon="-88.02958000000001" lat="42.93036">
+    <ele>218.39000000000001</ele>
+    <time>YYYY-MM-DDT16:55:43Z</time>
+   </trkpt>
+   <trkpt lon="-88.02913000000001" lat="42.93048">
+    <ele>218.09</ele>
+    <time>YYYY-MM-DDT16:55:59Z</time>
+   </trkpt>
+   <trkpt lon="-88.02895000000001" lat="42.930510000000005">
+    <ele>218.09</ele>
+    <time>YYYY-MM-DDT16:56:05Z</time>
+   </trkpt>
+   <trkpt lon="-88.02856000000001" lat="42.930530000000005">
+    <ele>218.13000000000002</ele>
+    <time>YYYY-MM-DDT16:56:18Z</time>
+   </trkpt>
+   <trkpt lon="-88.0283" lat="42.9305">
+    <ele>217.89000000000001</ele>
+    <time>YYYY-MM-DDT16:56:26Z</time>
+   </trkpt>
+   <trkpt lon="-88.02740499981383" lat="42.93047000349439">
+    <ele>216.89000000000001</ele>
+    <time>YYYY-MM-DDT16:56:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.02651" lat="42.930440000000004">
+    <ele>217.41000000000003</ele>
+    <time>YYYY-MM-DDT16:57:26Z</time>
+   </trkpt>
+   <trkpt lon="-88.02557" lat="42.930510000000005">
+    <ele>216.43</ele>
+    <time>YYYY-MM-DDT16:57:57Z</time>
+   </trkpt>
+   <trkpt lon="-88.02468" lat="42.930690000000006">
+    <ele>216.82000000000002</ele>
+    <time>YYYY-MM-DDT16:58:28Z</time>
+   </trkpt>
+   <trkpt lon="-88.02387" lat="42.93095">
+    <ele>216.88000000000002</ele>
+    <time>YYYY-MM-DDT16:58:57Z</time>
+   </trkpt>
+   <trkpt lon="-88.0228" lat="42.93117">
+    <ele>216.94000000000003</ele>
+    <time>YYYY-MM-DDT16:59:34Z</time>
+   </trkpt>
+   <trkpt lon="-88.02183000000001" lat="42.931200000000004">
+    <ele>217.27</ele>
+    <time>YYYY-MM-DDT17:00:06Z</time>
+   </trkpt>
+   <trkpt lon="-88.02115" lat="42.93112000000001">
+    <ele>217.92000000000002</ele>
+    <time>YYYY-MM-DDT17:00:29Z</time>
+   </trkpt>
+   <trkpt lon="-88.02058000000001" lat="42.93101">
+    <ele>217.32000000000002</ele>
+    <time>YYYY-MM-DDT17:00:48Z</time>
+   </trkpt>
+   <trkpt lon="-88.02033" lat="42.93072">
+    <ele>217.21</ele>
+    <time>YYYY-MM-DDT17:01:04Z</time>
+   </trkpt>
+   <trkpt lon="-88.02022000000001" lat="42.93038000000001">
+    <ele>217.39000000000001</ele>
+    <time>YYYY-MM-DDT17:01:20Z</time>
+   </trkpt>
+   <trkpt lon="-88.02047" lat="42.930170000000004">
+    <ele>217.57000000000002</ele>
+    <time>YYYY-MM-DDT17:01:32Z</time>
+   </trkpt>
+   <trkpt lon="-88.02073" lat="42.929860000000005">
+    <ele>217.38000000000002</ele>
+    <time>YYYY-MM-DDT17:01:49Z</time>
+   </trkpt>
+   <trkpt lon="-88.02093" lat="42.929570000000005">
+    <ele>217.09</ele>
+    <time>YYYY-MM-DDT17:02:03Z</time>
+   </trkpt>
+   <trkpt lon="-88.02106" lat="42.929300000000005">
+    <ele>216.53000000000003</ele>
+    <time>YYYY-MM-DDT17:02:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.02118" lat="42.928940000000004">
+    <ele>216.53000000000003</ele>
+    <time>YYYY-MM-DDT17:02:33Z</time>
+   </trkpt>
+   <trkpt lon="-88.02120000000001" lat="42.928580000000004">
+    <ele>216.17000000000002</ele>
+    <time>YYYY-MM-DDT17:02:49Z</time>
+   </trkpt>
+   <trkpt lon="-88.02118" lat="42.928180000000005">
+    <ele>215.83</ele>
+    <time>YYYY-MM-DDT17:03:07Z</time>
+   </trkpt>
+   <trkpt lon="-88.02111000000001" lat="42.92783">
+    <ele>215.64000000000001</ele>
+    <time>YYYY-MM-DDT17:03:23Z</time>
+   </trkpt>
+   <trkpt lon="-88.021" lat="42.9275">
+    <ele>215.60000000000002</ele>
+    <time>YYYY-MM-DDT17:03:39Z</time>
+   </trkpt>
+   <trkpt lon="-88.02080000000001" lat="42.927130000000005">
+    <ele>215.38000000000002</ele>
+    <time>YYYY-MM-DDT17:03:57Z</time>
+   </trkpt>
+   <trkpt lon="-88.02056" lat="42.9268">
+    <ele>215.51</ele>
+    <time>YYYY-MM-DDT17:04:14Z</time>
+   </trkpt>
+   <trkpt lon="-88.01986000000001" lat="42.92613">
+    <ele>215.95000000000002</ele>
+    <time>YYYY-MM-DDT17:04:52Z</time>
+   </trkpt>
+   <trkpt lon="-88.01945" lat="42.925810000000006">
+    <ele>216.06000000000003</ele>
+    <time>YYYY-MM-DDT17:05:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.01899" lat="42.92549">
+    <ele>215.85000000000002</ele>
+    <time>YYYY-MM-DDT17:05:33Z</time>
+   </trkpt>
+   <trkpt lon="-88.01851" lat="42.92524">
+    <ele>215.48</ele>
+    <time>YYYY-MM-DDT17:05:52Z</time>
+   </trkpt>
+   <trkpt lon="-88.01805" lat="42.92506">
+    <ele>215.31000000000003</ele>
+    <time>YYYY-MM-DDT17:06:09Z</time>
+   </trkpt>
+   <trkpt lon="-88.0176" lat="42.924960000000006">
+    <ele>215.38000000000002</ele>
+    <time>YYYY-MM-DDT17:06:25Z</time>
+   </trkpt>
+   <trkpt lon="-88.01713000000001" lat="42.92494000000001">
+    <ele>215.39000000000001</ele>
+    <time>YYYY-MM-DDT17:06:41Z</time>
+   </trkpt>
+   <trkpt lon="-88.01666" lat="42.925000000000004">
+    <ele>215.26</ele>
+    <time>YYYY-MM-DDT17:06:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.01621" lat="42.92513">
+    <ele>214.76</ele>
+    <time>YYYY-MM-DDT17:07:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.01582" lat="42.92531">
+    <ele>214.6</ele>
+    <time>YYYY-MM-DDT17:07:28Z</time>
+   </trkpt>
+   <trkpt lon="-88.0155" lat="42.92555">
+    <ele>214.46</ele>
+    <time>YYYY-MM-DDT17:07:43Z</time>
+   </trkpt>
+   <trkpt lon="-88.01505" lat="42.92604">
+    <ele>214.02</ele>
+    <time>YYYY-MM-DDT17:08:10Z</time>
+   </trkpt>
+   <trkpt lon="-88.01479" lat="42.926280000000006">
+    <ele>213.78000000000003</ele>
+    <time>YYYY-MM-DDT17:08:23Z</time>
+   </trkpt>
+   <trkpt lon="-88.01406" lat="42.92683">
+    <ele>213.72000000000003</ele>
+    <time>YYYY-MM-DDT17:08:58Z</time>
+   </trkpt>
+   <trkpt lon="-88.01355000000001" lat="42.927110000000006">
+    <ele>213.89000000000001</ele>
+    <time>YYYY-MM-DDT17:09:19Z</time>
+   </trkpt>
+   <trkpt lon="-88.01268" lat="42.9275">
+    <ele>213.84000000000003</ele>
+    <time>YYYY-MM-DDT17:09:53Z</time>
+   </trkpt>
+   <trkpt lon="-88.01224" lat="42.927640000000004">
+    <ele>213.61</ele>
+    <time>YYYY-MM-DDT17:10:09Z</time>
+   </trkpt>
+   <trkpt lon="-88.01135000000001" lat="42.92785000000001">
+    <ele>213.70000000000002</ele>
+    <time>YYYY-MM-DDT17:10:40Z</time>
+   </trkpt>
+   <trkpt lon="-88.01093" lat="42.92799">
+    <ele>214.02</ele>
+    <time>YYYY-MM-DDT17:10:55Z</time>
+   </trkpt>
+   <trkpt lon="-88.01054" lat="42.92822">
+    <ele>214.11</ele>
+    <time>YYYY-MM-DDT17:11:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.01005" lat="42.928610000000006">
+    <ele>214.32</ele>
+    <time>YYYY-MM-DDT17:11:36Z</time>
+   </trkpt>
+   <trkpt lon="-88.00978" lat="42.928760000000004">
+    <ele>214.62</ele>
+    <time>YYYY-MM-DDT17:11:47Z</time>
+   </trkpt>
+   <trkpt lon="-88.00952000000001" lat="42.928850000000004">
+    <ele>215.32</ele>
+    <time>YYYY-MM-DDT17:11:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.00897" lat="42.92898">
+    <ele>215.60000000000002</ele>
+    <time>YYYY-MM-DDT17:12:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.00876000000001" lat="42.929">
+    <ele>215.60000000000002</ele>
+    <time>YYYY-MM-DDT17:12:23Z</time>
+   </trkpt>
+   <trkpt lon="-88.00897" lat="42.92898">
+    <ele>215.60000000000002</ele>
+    <time>YYYY-MM-DDT17:12:30Z</time>
+   </trkpt>
+   <trkpt lon="-88.0089875006692" lat="42.9281949999979">
+    <ele>215.01</ele>
+    <time>YYYY-MM-DDT17:13:05Z</time>
+   </trkpt>
+   <trkpt lon="-88.00900500089234" lat="42.927409999993145">
+    <ele>215.67000000000002</ele>
+    <time>YYYY-MM-DDT17:13:41Z</time>
+   </trkpt>
+   <trkpt lon="-88.00902250066946" lat="42.92662499998571">
+    <ele>217.25000000000003</ele>
+    <time>YYYY-MM-DDT17:14:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.00904000000001" lat="42.92584">
+    <ele>220.75000000000003</ele>
+    <time>YYYY-MM-DDT17:14:52Z</time>
+   </trkpt>
+   <trkpt lon="-88.00906000015087" lat="42.925379999966715">
+    <ele>223.16000000000003</ele>
+    <time>YYYY-MM-DDT17:15:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.00908000000001" lat="42.92492">
+    <ele>224.28</ele>
+    <time>YYYY-MM-DDT17:15:33Z</time>
+   </trkpt>
+   <trkpt lon="-88.00910000254767" lat="42.924048000017315">
+    <ele>228.22</ele>
+    <time>YYYY-MM-DDT17:16:13Z</time>
+   </trkpt>
+   <trkpt lon="-88.0091200045291" lat="42.92317600003114">
+    <ele>231.05</ele>
+    <time>YYYY-MM-DDT17:16:52Z</time>
+   </trkpt>
+   <trkpt lon="-88.0091400059443" lat="42.922304000041485">
+    <ele>233.8</ele>
+    <time>YYYY-MM-DDT17:17:32Z</time>
+   </trkpt>
+   <trkpt lon="-88.00916000679332" lat="42.92143200004835">
+    <ele>236.02</ele>
+    <time>YYYY-MM-DDT17:18:11Z</time>
+   </trkpt>
+   <trkpt lon="-88.00918000707622" lat="42.92056000005173">
+    <ele>238.17000000000002</ele>
+    <time>YYYY-MM-DDT17:18:50Z</time>
+   </trkpt>
+   <trkpt lon="-88.009200006793" lat="42.919688000051615">
+    <ele>239.09000000000003</ele>
+    <time>YYYY-MM-DDT17:19:30Z</time>
+   </trkpt>
+   <trkpt lon="-88.00922000594369" lat="42.91881600004804">
+    <ele>239.55</ele>
+    <time>YYYY-MM-DDT17:20:09Z</time>
+   </trkpt>
+   <trkpt lon="-88.00924000452832" lat="42.91794400004098">
+    <ele>238.23000000000002</ele>
+    <time>YYYY-MM-DDT17:20:49Z</time>
+   </trkpt>
+   <trkpt lon="-88.00926000254698" lat="42.91707200003044">
+    <ele>236.31</ele>
+    <time>YYYY-MM-DDT17:21:28Z</time>
+   </trkpt>
+   <trkpt lon="-88.00928" lat="42.9162">
+    <ele>235.43000000000004</ele>
+    <time>YYYY-MM-DDT17:22:08Z</time>
+   </trkpt>
+   <trkpt lon="-88.01040999991905" lat="42.91620334444705">
+    <ele>237.34000000000003</ele>
+    <time>YYYY-MM-DDT17:22:45Z</time>
+   </trkpt>
+   <trkpt lon="-88.01153999996052" lat="42.9162066777805">
+    <ele>238.74</ele>
+    <time>YYYY-MM-DDT17:23:22Z</time>
+   </trkpt>
+   <trkpt lon="-88.01267000000001" lat="42.91621000000001">
+    <ele>240.20000000000002</ele>
+    <time>YYYY-MM-DDT17:24:00Z</time>
+   </trkpt>
+   <trkpt lon="-88.01360333346706" lat="42.91620667424832">
+    <ele>241.29000000000002</ele>
+    <time>YYYY-MM-DDT17:24:31Z</time>
+   </trkpt>
+   <trkpt lon="-88.01453666683322" lat="42.916203340914876">
+    <ele>242.33</ele>
+    <time>YYYY-MM-DDT17:25:02Z</time>
+   </trkpt>
+   <trkpt lon="-88.01547000000001" lat="42.9162">
+    <ele>242.96</ele>
+    <time>YYYY-MM-DDT17:25:33Z</time>
+   </trkpt>
+   <trkpt lon="-88.01635500016374" lat="42.91621000341189">
+    <ele>243.34000000000003</ele>
+    <time>YYYY-MM-DDT17:26:02Z</time>
+   </trkpt>
+   <trkpt lon="-88.01724" lat="42.91622">
+    <ele>244.15000000000003</ele>
+    <time>YYYY-MM-DDT17:26:31Z</time>
+   </trkpt>
+   <trkpt lon="-88.0181675011203" lat="42.91619501123118">
+    <ele>244.66000000000003</ele>
+    <time>YYYY-MM-DDT17:27:02Z</time>
+   </trkpt>
+   <trkpt lon="-88.01909500148825" lat="42.916170014975066">
+    <ele>244.84000000000003</ele>
+    <time>YYYY-MM-DDT17:27:33Z</time>
+   </trkpt>
+   <trkpt lon="-88.02002250110364" lat="42.91614501123164">
+    <ele>245.27</ele>
+    <time>YYYY-MM-DDT17:28:04Z</time>
+   </trkpt>
+   <trkpt lon="-88.02095000000001" lat="42.91612000000001">
+    <ele>245.73000000000002</ele>
+    <time>YYYY-MM-DDT17:28:34Z</time>
+   </trkpt>
+   <trkpt lon="-88.02210249975539" lat="42.91612501734102">
+    <ele>245.93</ele>
+    <time>YYYY-MM-DDT17:29:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.02325499969822" lat="42.916130023121454">
+    <ele>246.28000000000003</ele>
+    <time>YYYY-MM-DDT17:29:51Z</time>
+   </trkpt>
+   <trkpt lon="-88.02440749982807" lat="42.916135017341325">
+    <ele>246.17000000000002</ele>
+    <time>YYYY-MM-DDT17:30:29Z</time>
+   </trkpt>
+   <trkpt lon="-88.02556000000001" lat="42.916140000000006">
+    <ele>245.16000000000003</ele>
+    <time>YYYY-MM-DDT17:31:07Z</time>
+   </trkpt>
+   <trkpt lon="-88.02668666693684" lat="42.91613334438131">
+    <ele>243.75000000000003</ele>
+    <time>YYYY-MM-DDT17:31:44Z</time>
+   </trkpt>
+   <trkpt lon="-88.02781333363012" lat="42.91612667771449">
+    <ele>241.17000000000002</ele>
+    <time>YYYY-MM-DDT17:32:22Z</time>
+   </trkpt>
+   <trkpt lon="-88.02894" lat="42.91612000000001">
+    <ele>239.01000000000002</ele>
+    <time>YYYY-MM-DDT17:32:59Z</time>
+   </trkpt>
+   <trkpt lon="-88.03012800013843" lat="42.9161180245675">
+    <ele>237.61</ele>
+    <time>YYYY-MM-DDT17:33:38Z</time>
+   </trkpt>
+   <trkpt lon="-88.03131600020046" lat="42.91611603685124">
+    <ele>236.61</ele>
+    <time>YYYY-MM-DDT17:34:18Z</time>
+   </trkpt>
+   <trkpt lon="-88.0325040001856" lat="42.916114036851276">
+    <ele>235.98000000000002</ele>
+    <time>YYYY-MM-DDT17:34:57Z</time>
+   </trkpt>
+   <trkpt lon="-88.03369200009338" lat="42.91611202456756">
+    <ele>235.59</ele>
+    <time>YYYY-MM-DDT17:35:36Z</time>
+   </trkpt>
+   <trkpt lon="-88.03488" lat="42.91611">
+    <ele>235.39000000000001</ele>
+    <time>YYYY-MM-DDT17:36:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.03609" lat="42.916000000000004">
+    <ele>237.14000000000001</ele>
+    <time>YYYY-MM-DDT17:36:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.03721" lat="42.91564">
+    <ele>238.35</ele>
+    <time>YYYY-MM-DDT17:37:37Z</time>
+   </trkpt>
+   <trkpt lon="-88.03820500794727" lat="42.9151500042908">
+    <ele>238.6</ele>
+    <time>YYYY-MM-DDT17:38:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.03920000000001" lat="42.914660000000005">
+    <ele>236.93000000000004</ele>
+    <time>YYYY-MM-DDT17:38:56Z</time>
+   </trkpt>
+   <trkpt lon="-88.03975500208321" lat="42.91446000123882">
+    <ele>236.39000000000001</ele>
+    <time>YYYY-MM-DDT17:39:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.04031" lat="42.914260000000006">
+    <ele>235.0</ele>
+    <time>YYYY-MM-DDT17:39:37Z</time>
+   </trkpt>
+   <trkpt lon="-88.04098000155818" lat="42.914130001925415">
+    <ele>233.87</ele>
+    <time>YYYY-MM-DDT17:40:00Z</time>
+   </trkpt>
+   <trkpt lon="-88.04165" lat="42.914">
+    <ele>232.32000000000002</ele>
+    <time>YYYY-MM-DDT17:40:23Z</time>
+   </trkpt>
+   <trkpt lon="-88.04268" lat="42.913920000000005">
+    <ele>230.89000000000001</ele>
+    <time>YYYY-MM-DDT17:40:57Z</time>
+   </trkpt>
+   <trkpt lon="-88.0434" lat="42.913920000000005">
+    <ele>229.62</ele>
+    <time>YYYY-MM-DDT17:41:21Z</time>
+   </trkpt>
+   <trkpt lon="-88.04434" lat="42.914">
+    <ele>229.23000000000002</ele>
+    <time>YYYY-MM-DDT17:41:52Z</time>
+   </trkpt>
+   <trkpt lon="-88.04491" lat="42.914120000000004">
+    <ele>229.54000000000002</ele>
+    <time>YYYY-MM-DDT17:42:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.04480000000001" lat="42.91418">
+    <ele>234.10000000000002</ele>
+    <time>YYYY-MM-DDT17:42:17Z</time>
+   </trkpt>
+   <trkpt lon="-88.04498000000001" lat="42.91434">
+    <ele>234.05</ele>
+    <time>YYYY-MM-DDT17:42:26Z</time>
+   </trkpt>
+   <trkpt lon="-88.04536" lat="42.91480000000001">
+    <ele>234.05</ele>
+    <time>YYYY-MM-DDT17:42:50Z</time>
+   </trkpt>
+   <trkpt lon="-88.04573" lat="42.91543">
+    <ele>234.05</ele>
+    <time>YYYY-MM-DDT17:43:21Z</time>
+   </trkpt>
+   <trkpt lon="-88.0459" lat="42.915780000000005">
+    <ele>240.09000000000003</ele>
+    <time>YYYY-MM-DDT17:43:38Z</time>
+   </trkpt>
+   <trkpt lon="-88.04605000000001" lat="42.91622">
+    <ele>240.09000000000003</ele>
+    <time>YYYY-MM-DDT17:43:59Z</time>
+   </trkpt>
+   <trkpt lon="-88.04613" lat="42.9166">
+    <ele>240.09000000000003</ele>
+    <time>YYYY-MM-DDT17:44:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.04618" lat="42.917060000000006">
+    <ele>240.09000000000003</ele>
+    <time>YYYY-MM-DDT17:44:37Z</time>
+   </trkpt>
+   <trkpt lon="-88.04618" lat="42.91747">
+    <ele>240.09000000000003</ele>
+    <time>YYYY-MM-DDT17:44:55Z</time>
+   </trkpt>
+   <trkpt lon="-88.04616400081646" lat="42.91825600000164">
+    <ele>244.77</ele>
+    <time>YYYY-MM-DDT17:45:31Z</time>
+   </trkpt>
+   <trkpt lon="-88.04614800122472" lat="42.919042000001035">
+    <ele>244.77</ele>
+    <time>YYYY-MM-DDT17:46:06Z</time>
+   </trkpt>
+   <trkpt lon="-88.04613200122482" lat="42.9198279999982">
+    <ele>244.77</ele>
+    <time>YYYY-MM-DDT17:46:42Z</time>
+   </trkpt>
+   <trkpt lon="-88.04611600081667" lat="42.920613999993144">
+    <ele>245.66000000000003</ele>
+    <time>YYYY-MM-DDT17:47:18Z</time>
+   </trkpt>
+   <trkpt lon="-88.04610000000001" lat="42.921400000000006">
+    <ele>245.66000000000003</ele>
+    <time>YYYY-MM-DDT17:47:53Z</time>
+   </trkpt>
+   <trkpt lon="-88.04610000000001" lat="42.92199">
+    <ele>244.91000000000003</ele>
+    <time>YYYY-MM-DDT17:48:20Z</time>
+   </trkpt>
+   <trkpt lon="-88.04614999961666" lat="42.92247500011038">
+    <ele>244.18</ele>
+    <time>YYYY-MM-DDT17:48:42Z</time>
+   </trkpt>
+   <trkpt lon="-88.04620000000001" lat="42.92296">
+    <ele>244.18</ele>
+    <time>YYYY-MM-DDT17:49:04Z</time>
+   </trkpt>
+   <trkpt lon="-88.0463" lat="42.92334">
+    <ele>244.55</ele>
+    <time>YYYY-MM-DDT17:49:21Z</time>
+   </trkpt>
+   <trkpt lon="-88.04643" lat="42.92374">
+    <ele>244.55</ele>
+    <time>YYYY-MM-DDT17:49:40Z</time>
+   </trkpt>
+   <trkpt lon="-88.04676" lat="42.92441">
+    <ele>246.02</ele>
+    <time>YYYY-MM-DDT17:50:12Z</time>
+   </trkpt>
+   <trkpt lon="-88.04688" lat="42.924600000000005">
+    <ele>246.02</ele>
+    <time>YYYY-MM-DDT17:50:22Z</time>
+   </trkpt>
+   <trkpt lon="-88.04724499673917" lat="42.925135000446474">
+    <ele>246.02</ele>
+    <time>YYYY-MM-DDT17:50:49Z</time>
+   </trkpt>
+   <trkpt lon="-88.04761" lat="42.925670000000004">
+    <ele>239.29000000000002</ele>
+    <time>YYYY-MM-DDT17:51:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.04787" lat="42.92611">
+    <ele>239.29000000000002</ele>
+    <time>YYYY-MM-DDT17:51:37Z</time>
+   </trkpt>
+   <trkpt lon="-88.04802000000001" lat="42.92643">
+    <ele>239.29000000000002</ele>
+    <time>YYYY-MM-DDT17:51:53Z</time>
+   </trkpt>
+   <trkpt lon="-88.04820000000001" lat="42.92694">
+    <ele>238.99</ele>
+    <time>YYYY-MM-DDT17:52:16Z</time>
+   </trkpt>
+   <trkpt lon="-88.04830000000001" lat="42.92732">
+    <ele>238.99</ele>
+    <time>YYYY-MM-DDT17:52:34Z</time>
+   </trkpt>
+   <trkpt lon="-88.04836" lat="42.92775">
+    <ele>238.99</ele>
+    <time>YYYY-MM-DDT17:52:53Z</time>
+   </trkpt>
+   <trkpt lon="-88.0484" lat="42.928450000000005">
+    <ele>240.35</ele>
+    <time>YYYY-MM-DDT17:53:25Z</time>
+   </trkpt>
+   <trkpt lon="-88.04837000041681" lat="42.92930499999352">
+    <ele>237.96000000000004</ele>
+    <time>YYYY-MM-DDT17:54:04Z</time>
+   </trkpt>
+   <trkpt lon="-88.04834000000001" lat="42.93016">
+    <ele>237.96000000000004</ele>
+    <time>YYYY-MM-DDT17:54:43Z</time>
+   </trkpt>
+   <trkpt lon="-88.048330000142" lat="42.93102999993605">
+    <ele>235.68000000000004</ele>
+    <time>YYYY-MM-DDT17:55:22Z</time>
+   </trkpt>
+   <trkpt lon="-88.04832" lat="42.931900000000006">
+    <ele>235.68000000000004</ele>
+    <time>YYYY-MM-DDT17:56:01Z</time>
+   </trkpt>
+   <trkpt lon="-88.04828" lat="42.93267">
+    <ele>235.68000000000004</ele>
+    <time>YYYY-MM-DDT17:56:36Z</time>
+   </trkpt>
+   <trkpt lon="-88.0482899999114" lat="42.933199999864954">
+    <ele>234.78</ele>
+    <time>YYYY-MM-DDT17:57:00Z</time>
+   </trkpt>
+   <trkpt lon="-88.04830000000001" lat="42.933730000000004">
+    <ele>234.78</ele>
+    <time>YYYY-MM-DDT17:57:24Z</time>
+   </trkpt>
+   <trkpt lon="-88.0483599994196" lat="42.93431499991385">
+    <ele>233.46000000000004</ele>
+    <time>YYYY-MM-DDT17:57:51Z</time>
+   </trkpt>
+   <trkpt lon="-88.04842000000001" lat="42.934900000000006">
+    <ele>233.46000000000004</ele>
+    <time>YYYY-MM-DDT17:58:17Z</time>
+   </trkpt>
+  </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vph", "Vph\Vph.csproj", "{F958E3FF-C418-486B-BE9E-5DE15BF99E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vph.Pl", "Vph.Pl\Vph.Pl.csproj", "{136A74A6-E07A-46A0-BC97-590E745B5ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F958E3FF-C418-486B-BE9E-5DE15BF99E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F958E3FF-C418-486B-BE9E-5DE15BF99E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F958E3FF-C418-486B-BE9E-5DE15BF99E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F958E3FF-C418-486B-BE9E-5DE15BF99E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136A74A6-E07A-46A0-BC97-590E745B5ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136A74A6-E07A-46A0-BC97-590E745B5ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136A74A6-E07A-46A0-BC97-590E745B5ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136A74A6-E07A-46A0-BC97-590E745B5ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E98BB64-AFE5-42DD-88F2-E4610E743C2B}
+	EndGlobalSection
+EndGlobal
