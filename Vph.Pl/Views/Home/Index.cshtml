@@ -11,16 +11,12 @@
         <p>Access Token: @Model.AccessToken</p>
         <a class="btn btn-primary" href="~/Home/Authenticate">Authenticate with Strava</a>
         <a class="btn btn-default" href="~/Home/LogOut">Log Out from Strava</a>
-        <a class="btn btn-default" href="~/Home/CreateActivity">Create Activity For Today</a>
-    </div>
-    @{
-        foreach (var activity in Model.Activities)
+        @if (@Model.IsAuthenticated)
         {
-            <div class="row">
-                <p><b>@activity.Name</b></p>
-                <p>@activity.Distance <i>@activity.Start</i></p>
-            </div>
+            <form action="~/Home/CreateActivity" method="post">
+                <input type="date" name="date" id="date"/>
+                <input type="submit" class="btn btn-default" value="Create Activity"/>
+            </form>
         }
-    }
-
+    </div>
 </div>

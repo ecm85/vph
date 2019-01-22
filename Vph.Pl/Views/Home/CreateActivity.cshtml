@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ActivityViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Activity Creation</h2>
+        <p>Activity created successfully.</p>
+        <h3>Your Activities:</h3>
+        @{
+        foreach (var activity in Model)
+        {
+            <div class="row">
+                <p><b>@activity.Name</b></p>
+                <p>@activity.Distance <i>@activity.Start</i></p>
+            </div>
+        }
+        }
+    </div>
+
+</div>

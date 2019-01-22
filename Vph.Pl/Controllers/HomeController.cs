@@ -2,6 +2,7 @@
 using System.IO;
 using System.Reflection;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
@@ -15,20 +16,14 @@ namespace Vph.Pl.Controllers
         public static string ClientId => "31962";
         public static string ClientSecret => "a3a8d1afccc76cdc1a3f63b2f472d93e712f057c";
 
-        public async Task<ActionResult> Index()
+        public ActionResult Index()
         {
             var authenticator = CreateAuthenticator();
-            var viewModel = new HomeViewModel(authenticator.IsAuthenticated);
-            if (authenticator.IsAuthenticated)
+            var viewModel = new HomeViewModel
             {
-                viewModel.AccessToken = authenticator.AccessToken;
-                //var client = new StravaSharp.Client(authenticator);
-                //var activities = await client.Activities.GetAthleteActivities();
-                //foreach (var activity in activities)
-                //{
-                //    viewModel.Activities.Add(new ActivityViewModel(activity));
-                //}
-            }
+                AccessToken = authenticator.AccessToken,
+                IsAuthenticated = authenticator.IsAuthenticated
+            };
             return View(viewModel);
         }
 
@@ -56,7 +51,7 @@ namespace Vph.Pl.Controllers
             return Redirect(loginUri.AbsoluteUri);
         }
 
-        public async Task<ActionResult> LogOut()
+        public ActionResult LogOut()
         {
             var authenticator = CreateAuthenticator();
             authenticator.AccessToken = string.Empty;
@@ -73,19 +68,23 @@ namespace Vph.Pl.Controllers
 
         public static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
 
-        public async Task<ActionResult> CreateActivity()
+        [HttpPost]
+        public async Task<ActionResult> CreateActivity(DateTime date)
         {
             var authenticator = CreateAuthenticator();
             var client = new StravaSharp.Client(authenticator);
             var originalFilePath = Path.Combine(GetCurrentPath, "Biking-timestamped.gpx");
-            var dateStamp = DateTime.Today.ToString("yyyy-MM-dd");
+            var dateStamp = date.ToString("yyyy-MM-dd");
             var originalFileText = System.IO.File.ReadAllText(originalFilePath).Replace("YYYY-MM-DD", dateStamp);
             
             using (var stream = new MemoryStream(Encoding.ASCII.GetBytes(originalFileText)))
             {
                 await client.Activities.Upload(ActivityType.Ride, DataType.Gpx, stream, $"BikeRide{dateStamp}.gpx", $"Bike Ride {dateStamp}");
             }
-            return RedirectToAction("Index");
+            var activities = await client.Activities.GetAthleteActivities();
+            var models = activities.Select(activity => new ActivityViewModel(activity)).ToList();
+            
+            return View(models);
         }
     }
 }
