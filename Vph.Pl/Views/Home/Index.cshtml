@@ -17,9 +17,14 @@
                 <input class="form-control" type="date" name="endDate" id="endDate" />
                 <input type="submit" class="btn btn-primary" value="Create Activity" />
             </form>
+
+            <br/>
+
+            <form action="~/Home/CreateLastTwoWeeksActivity" method="post">
+                <input type="submit" class="btn btn-primary" value="Create Last Two Weeks Activity" />
+            </form>
         }
-        
-       
+
         @if (@Model.IsAuthenticated)
         {
             <div>

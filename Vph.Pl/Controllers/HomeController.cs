@@ -108,6 +108,12 @@ namespace Vph.Pl.Controllers
             return View(model);
         }
 
+        [HttpPost]
+        public async Task<ActionResult> CreateLastTwoWeeksActivity()
+        {
+            return await CreateActivity(DateTime.Today.Date.AddDays(-14), DateTime.Today);
+        }
+
         public async Task<ActionResult> Activities()
         {
             
