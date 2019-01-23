@@ -13,8 +13,8 @@ namespace Vph.Pl.Controllers
 {
     public class HomeController : Controller
     {
-        public static string ClientId => "31962";
-        public static string ClientSecret => "a3a8d1afccc76cdc1a3f63b2f472d93e712f057c";
+        private static string ClientId => "31962";
+        private static string ClientSecret => "a3a8d1afccc76cdc1a3f63b2f472d93e712f057c";
 
         public ActionResult Index()
         {
@@ -66,7 +66,7 @@ namespace Vph.Pl.Controllers
             return RedirectToAction("Index");
         }
 
-        public static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
+        private static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
 
         [HttpPost]
         public async Task<ActionResult> CreateActivity(DateTime startDate, DateTime endDate)
@@ -110,12 +110,15 @@ namespace Vph.Pl.Controllers
 
         public async Task<ActionResult> Activities()
         {
+            
             var authenticator = CreateAuthenticator();
+            var model = new ActivitiesViewModel{IsAuthenticated = authenticator.IsAuthenticated};
+            if (!authenticator.IsAuthenticated)
+                return View(model);
             var client = new StravaSharp.Client(authenticator);
             var activities = await client.Activities.GetAthleteActivities();
-            var models = activities.Select(activity => new ActivityViewModel(activity)).ToList();
-
-            return View(models);
+            model.Activities = activities.Select(activity => new ActivityViewModel(activity)).ToList();
+            return View(model);
         }
     }
 }
