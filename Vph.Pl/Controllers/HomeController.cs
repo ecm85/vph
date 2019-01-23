@@ -69,17 +69,22 @@ namespace Vph.Pl.Controllers
         private static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
 
         [HttpPost]
-        public async Task<ActionResult> CreateActivity(DateTime startDate, DateTime endDate)
+        public async Task<ActionResult> CreateActivity(DateTime? startDate, DateTime? endDate)
         {
+            if (startDate == null && endDate == null)
+            {
+                startDate = DateTime.Today.Date.AddDays(-14);
+                endDate = DateTime.Today;
+            }
 
-            if (endDate.Date < startDate.Date || startDate == DateTime.MinValue || endDate == DateTime.MinValue)
+            if (endDate == null || startDate == null || endDate.Value.Date < startDate.Value.Date || startDate == DateTime.MinValue || endDate == DateTime.MinValue)
                 throw new InvalidOperationException("You're an idiot.");
-            if (endDate.Date.Subtract(startDate.Date).Days > 30)
+            if (endDate.Value.Date.Subtract(startDate.Value.Date).Days > 30)
                 throw new InvalidOperationException("Just do a month at a time.");
 
-            var currentDate = startDate;
+            var currentDate = startDate.Value;
             var model = new CreateActivityResultModel();
-            while (currentDate.Date <= endDate.Date)
+            while (currentDate.Date <= endDate.Value.Date)
             {
                 try
                 {
@@ -106,12 +111,6 @@ namespace Vph.Pl.Controllers
             }
 
             return View(model);
-        }
-
-        [HttpPost]
-        public async Task<ActionResult> CreateLastTwoWeeksActivity()
-        {
-            return await CreateActivity(DateTime.Today.Date.AddDays(-14), DateTime.Today);
         }
 
         public async Task<ActionResult> Activities()
