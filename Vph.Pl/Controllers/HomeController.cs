@@ -73,7 +73,7 @@ namespace Vph.Pl.Controllers
         {
             if (startDate == null && endDate == null)
             {
-                startDate = DateTime.Today.Date.AddDays(-14);
+                startDate = DateTime.Today.Date.AddDays(-13);
                 endDate = DateTime.Today;
             }
 
