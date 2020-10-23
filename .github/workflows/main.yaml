@@ -25,10 +25,9 @@ jobs:
         env:
           aws_access_key_id: ${{ secrets.aws_access_key_id }}
           aws_secret_access_key: ${{ secrets.aws_secret_access_key }}
-          aws_default_region: us-east-2
         run: |
           cd $GITHUB_WORKSPACE
           dotnet build -c Release -nologo
           cd ./Vph.Pl
           dotnet lambda package -o lambda.zip -c Release --no-build
-          aws lambda update-function-code --function-name vph --zip-file fileb://lambda.zip
+          aws lambda update-function-code --function-name vph --zip-file fileb://lambda.zip --region us-east-2
