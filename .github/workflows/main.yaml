@@ -31,7 +31,6 @@ jobs:
       - name: Configure AWS
         with:
           aws_access_key_id: ${{ secrets.aws_access_key_id }}
-        with:
           aws_secret_access_key: ${{ secrets.aws_secret_access_key }}
         run: |
           aws configure set region us-east-2
