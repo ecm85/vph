@@ -62,7 +62,9 @@ namespace Vph.Pl.Controllers
         public async Task<ActionResult> Callback()
         {
             var authenticator = CreateAuthenticator();
-            await authenticator.OnPageLoaded(new Uri(Request.GetEncodedUrl()));
+            var result = await authenticator.OnPageLoaded(new Uri(Request.GetEncodedUrl()));
+            if (!result)
+                throw new InvalidOperationException("Result was false!");
             return RedirectToAction("Index");
         }
 
