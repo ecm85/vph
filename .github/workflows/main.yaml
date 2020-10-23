@@ -28,4 +28,13 @@ jobs:
           cd ./Vph.Pl
           dotnet lambda package -o lambda.zip -c Release --no-build
 
-        # cp lambda.zip
+      - name: Configure AWS
+        with:
+          aws_access_key_id: ${{ secrets.aws_access_key_id }}
+        with:
+          aws_secret_access_key: ${{ secrets.aws_secret_access_key }}
+        run: |
+          aws configure set region us-east-2
+          aws configure set aws_access_key_id "$aws_access_key_id"
+          aws configure set aws_secret_access_key "$aws_secret_access_key"
+          aws lambda update-function-code --function-name vph --zip-file fileb://lambda.zip
