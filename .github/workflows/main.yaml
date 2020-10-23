@@ -23,11 +23,12 @@ jobs:
 
       - name: Build and upload to Lambda
         env:
-          aws_access_key_id: ${{ secrets.aws_access_key_id }}
-          aws_secret_access_key: ${{ secrets.aws_secret_access_key }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_id }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key }}
+          AWS_DEFAULT_REGION: us-east-2
         run: |
           cd $GITHUB_WORKSPACE
           dotnet build -c Release -nologo
           cd ./Vph.Pl
           dotnet lambda package -o lambda.zip -c Release --no-build
-          aws lambda update-function-code --function-name vph --zip-file fileb://lambda.zip --region us-east-2
+          aws lambda update-function-code --function-name vph --zip-file fileb://lambda.zip
