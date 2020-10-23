@@ -22,8 +22,8 @@ namespace Vph.Pl
 			ILambdaContext lambdaContext)
 		{
 			//The base path mapping gets stripped off in AWS. We still let it strip off but just set it at a different time as an override.
-			aspNetCoreRequestFeature.PathBase = "";
-			aspNetCoreRequestFeature.Path = apiGatewayRequest.Path;
+			//aspNetCoreRequestFeature.PathBase = "";
+			//aspNetCoreRequestFeature.Path = apiGatewayRequest.Path;
 		}
 	}
 }
