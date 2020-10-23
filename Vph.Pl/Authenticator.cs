@@ -34,26 +34,16 @@ namespace Vph.Pl
 
         public async Task<bool> OnPageLoaded(Uri uri)
         {
-            if (uri.AbsoluteUri.StartsWith(Client.Configuration.RedirectUri))
-            {
-                Debug.WriteLine("Navigated to redirect url.");
-                var parameters = uri.Query.Remove(0, 1).ParseQueryString(); 
-                await Client.GetUserInfo(parameters);
+            Debug.WriteLine("Navigated to redirect url.");
+            var parameters = uri.Query.Remove(0, 1).ParseQueryString(); 
+            await Client.GetUserInfo(parameters);
 
-                if (!string.IsNullOrEmpty(Client.AccessToken))
-                {
-                    AccessToken = Client.AccessToken;
-                    return true;
-                }
-                else
-                {
-                    throw new InvalidOperationException($"Parameters: {string.Join(",", parameters.Select(parameter => $"{parameter.Key} - {parameter.Single()}"))}");
-                }
-            }
-            else
+            if (!string.IsNullOrEmpty(Client.AccessToken))
             {
-                throw new InvalidOperationException($"Uri: {uri}, Client Client Configuration RedirectUri: {Client.Configuration.RedirectUri}");
+                AccessToken = Client.AccessToken;
+                return true;
             }
+            return false;
         }
 
         public override bool CanPreAuthenticate(IRestClient client, IRestRequest request, ICredentials credentials)

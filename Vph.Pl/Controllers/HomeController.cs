@@ -63,8 +63,6 @@ namespace Vph.Pl.Controllers
         {
             var authenticator = CreateAuthenticator();
             var result = await authenticator.OnPageLoaded(new Uri(Request.GetEncodedUrl()));
-            if (!result)
-                throw new InvalidOperationException("Result was false!");
             return RedirectToAction("Index");
         }
 
