@@ -66,7 +66,7 @@ namespace Vph.Pl.Controllers
             return RedirectToAction("Index");
         }
 
-        private static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
+        private static string GetCurrentPath => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         [HttpPost]
         public async Task<ActionResult> CreateActivity(DateTime? startDate, DateTime? endDate)
