@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
@@ -44,9 +45,15 @@ namespace Vph.Pl
                     AccessToken = Client.AccessToken;
                     return true;
                 }
+                else
+                {
+                    throw new InvalidOperationException($"Parameters: {string.Join(",", parameters.Select(parameter => $"{parameter.Key} - {parameter.Single()}"))}");
+                }
             }
-
-            return false;
+            else
+            {
+                throw new InvalidOperationException($"Uri: {uri}, Client Client Configuration RedirectUri: {Client.Configuration.RedirectUri}");
+            }
         }
 
         public override bool CanPreAuthenticate(IRestClient client, IRestRequest request, ICredentials credentials)
